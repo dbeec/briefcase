@@ -13,7 +13,7 @@ export const Nav = styled.nav`
 `;
 
 export const Ul = styled.ul`
-  background: green;
+  /* background: green; */
   display: flex;
   gap: 60px;
   list-style: none;

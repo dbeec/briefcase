@@ -1,7 +1,6 @@
 "use client";
 import { Menu } from "./menu";
-import { ContentNavbar, Li, Nav, Ul } from "./styled.navbar";
-import Link from 'next/link'
+import { ContentNavbar, Li, Linkk, Nav, Ul } from "./styled.navbar";
 
 const Navbar = () => {
   return (
@@ -12,10 +11,10 @@ const Navbar = () => {
             {Menu.map((item, index) => {
               return (
                 <Li key={index}>
-                  <Link href="/">
+                  <Linkk href={item.url}>
                     <i className="icon">{item.icon}</i>
-                    <span className="title">{item.title}</span>
-                    </Link>
+                    <span className={item.class}>{item.title}</span>
+                    </Linkk>
                 </Li>
               );
             })}

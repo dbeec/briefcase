@@ -11,13 +11,13 @@ export const Menu = [
   },
   {
     title: "about me",
-    url: "/",
+    url: "/about",
     icon: <MdOutlineAnnouncement />
   },
   {
     title: "tsx",
     url: "/",
-    clss: ""
+    class: "brand"
   },
   {
     title: "briefcase",

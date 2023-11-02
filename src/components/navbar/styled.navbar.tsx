@@ -1,7 +1,8 @@
 import styled from 'styled-components';
+import Link from 'next/link'
 
 export const ContentNavbar = styled.div`
-  /* background-color: #222; */
+  background-color: #fff;
   height: 10vh;
   display: flex;
   justify-content: center;
@@ -22,5 +23,22 @@ export const Ul = styled.ul`
 `;
 
 export const Li = styled.li`
+  transition: all ease .3s;
 
+  .brand {
+    font-weight: 600;
+    font-size: 2rem;
+  }
+&:hover {
+    transform: translateY(-4px);
+  }
+`;
+
+export const Linkk = styled(Link)`
+  display: flex;
+  gap: 10px;
+  .icon {
+    display: flex;
+    align-items: center;
+  }
 `;

@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import Link from 'next/link'
 
 export const ContentNavbar = styled.div`
-  background-color: #fff;
   height: 10vh;
   display: flex;
   justify-content: center;

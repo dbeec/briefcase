@@ -7,12 +7,15 @@ export const Menu = [
   {
     title: "home",
     url: "/",
-    icon: <GrHomeRounded />
+    icon: <GrHomeRounded />,
+    class: "show none"
+
   },
   {
     title: "about me",
     url: "/about",
-    icon: <MdOutlineAnnouncement />
+    icon: <MdOutlineAnnouncement />,
+    class: "show none"
   },
   {
     title: "tsx",
@@ -22,11 +25,13 @@ export const Menu = [
   {
     title: "briefcase",
     url: "/",
-    icon: <BsBriefcase />
+    icon: <BsBriefcase />,
+    class: "show none"
   },
   {
     title: "contact me",
     url: "/",
-    icon: <AiOutlineContacts />
+    icon: <AiOutlineContacts />,
+    class: "show none"
   },
 ]

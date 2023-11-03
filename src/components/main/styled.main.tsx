@@ -18,6 +18,11 @@ export const MyProfile = styled.div`
   width: 50%;
   height: auto;
   gap: 30px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    width: auto;
+  }
 `;
 
 export const ContentProfilePic = styled.div`
@@ -35,17 +40,27 @@ export const ProfileMain = styled.div`
 `;
 
 export const PersonalInformation = styled.div`
-  
+  @media (max-width: 768px) {
+  }
 `;
 
 export const H1 = styled.h1`
   font-size: 3rem;
+
+  @media (max-width: 768px) {
+    text-align: center;
+  }
 `;
 
 export const H2 = styled.h2`
-  
+  @media (max-width: 768px) {
+    text-align: center;
+  }
 `;
 
 export const TextPersonal = styled.p`
-  
+  @media (max-width: 768px) {
+    margin-left: 10px;
+    padding: 4px;
+  }
 `;

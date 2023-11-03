@@ -37,7 +37,7 @@ export const SocialNetworks = styled.div`
   font-size: 2rem;
   gap: 20px;
   margin-top: 20px;
-
+  
   @media (max-width: 768px) {
     /* background-color: red; */
     width: 100%;
@@ -60,7 +60,6 @@ export const ProfileMain = styled.div`
   width: 250px;
   height: 250px;
   background: transparent;
-
   `;
 
 export const Picture = styled.img<PictureProps>`
@@ -71,6 +70,7 @@ export const Picture = styled.img<PictureProps>`
   padding: 6px;
   /* box-sizing: border-box; */
   background: linear-gradient(#118333, #B5AC49)
+  
 `;
 
 export const PersonalInformation = styled.div`

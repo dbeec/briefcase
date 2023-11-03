@@ -17,7 +17,7 @@ import { BiLogoGithub } from "react-icons/bi";
 import { RiTwitterXFill } from "react-icons/ri";
 import { FaLinkedinIn } from "react-icons/fa";
 
-const img1 = '/boruto.jpg';
+const img1 = '/Me.jpg';
 const Main = () => {
   return (
     <>

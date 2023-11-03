@@ -24,7 +24,7 @@ const Main = () => {
             <H1>Hello, I am Johan Díaz 👋</H1>
             <H2>Developer Frontend Junior</H2>
             <TextPersonal>✈️ love travel to the world</TextPersonal>
-            <TextPersonal>🏍️ i've a passion for motorcycles</TextPersonal>
+            <TextPersonal>🏍️ i have a passion for motorcycles</TextPersonal>
             <TextPersonal>☕ coffe and more coffe</TextPersonal>
             <TextPersonal>💻 love with de code</TextPersonal>
           </PersonalInformation>

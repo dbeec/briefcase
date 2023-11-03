@@ -23,10 +23,10 @@ const Main = () => {
           <PersonalInformation>
             <H1>Holaaaa, pvtooos!! 👋</H1>
             <H2>Im Frontend Developer Junior</H2>
-            
-            <TextPersonal>
-              
-            </TextPersonal>
+            <TextPersonal>✈️ Personal idea number one</TextPersonal>
+            <TextPersonal>🏍️ Personal idea number one</TextPersonal>
+            <TextPersonal>☕ Personal idea number one</TextPersonal>
+            <TextPersonal>🎮 Personal idea number one</TextPersonal>
           </PersonalInformation>
         </MyProfile>
       </ContentMain>

@@ -6,18 +6,21 @@ import {
   MyProfile,
   PersonalInformation,
   ProfileMain,
+  SocialNetworks,
   TextPersonal,
 } from "./styled.main";
-
+import {BiLogoFacebook} from 'react-icons/bi'
+import {BiLogoInstagram} from 'react-icons/bi'
+import {BiLogoGithub} from 'react-icons/bi'
+import {RiTwitterXFill} from 'react-icons/ri'
+import {FaLinkedinIn} from 'react-icons/fa'
 const Main = () => {
   return (
     <>
       <ContentMain>
         <MyProfile>
           <ContentProfilePic>
-            <ProfileMain>
-              profile here
-            </ProfileMain>
+            <ProfileMain>profile here</ProfileMain>
           </ContentProfilePic>
 
           <PersonalInformation>
@@ -27,7 +30,17 @@ const Main = () => {
             <TextPersonal>🏍️ i{"'"}ve a passion for motorcycles</TextPersonal>
             <TextPersonal>☕ coffe and more coffe</TextPersonal>
             <TextPersonal>💻 love with de code</TextPersonal>
+
+            {/* iconos de mis redes sociales */}
+          <SocialNetworks>
+            <BiLogoFacebook />
+            <BiLogoInstagram />
+            <BiLogoGithub />
+            <RiTwitterXFill />
+            <FaLinkedinIn />
+          </SocialNetworks>
           </PersonalInformation>
+
         </MyProfile>
       </ContentMain>
     </>

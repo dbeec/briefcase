@@ -1,5 +1,10 @@
 import styled from 'styled-components';
 
+interface PictureProps {
+  src: string;
+  alt: string;
+}
+
 export const ContentMain = styled.div`
   /* background-color: #222; */
   display: flex;
@@ -54,8 +59,18 @@ export const ProfileMain = styled.div`
   align-items: center;  //eliminar estilo
   width: 250px;
   height: 250px;
+  background: transparent;
+
+  `;
+
+export const Picture = styled.img<PictureProps>`
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   border-radius: 50%;
-  border: 4px solid #222;
+  padding: 6px;
+  /* box-sizing: border-box; */
+  background: linear-gradient(#118333, #B5AC49)
 `;
 
 export const PersonalInformation = styled.div`
@@ -69,6 +84,14 @@ export const H1 = styled.h1`
   @media (max-width: 768px) {
     text-align: center;
   }
+`;
+
+export const Span = styled.span`
+  background: #118333;
+background: -webkit-linear-gradient(to right, #B5AC49, #118333);
+background: linear-gradient(to right, #B5AC49, #118333);
+-webkit-background-clip: text;
+color: transparent;
 `;
 
 export const H2 = styled.h2`

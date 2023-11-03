@@ -20,7 +20,7 @@ export const MyProfile = styled.div`
   /* background: #222; */
   display: flex;
   align-items: center;
-  width: 50%;
+  width: auto;
   height: auto;
   gap: 30px;
 
@@ -91,6 +91,7 @@ export const Span = styled.span`
 background: -webkit-linear-gradient(to right, #B5AC49, #118333);
 background: linear-gradient(to right, #B5AC49, #118333);
 -webkit-background-clip: text;
+background-clip: text;
 color: transparent;
 `;
 

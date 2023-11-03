@@ -56,7 +56,7 @@ export const Ul = styled.ul<UlProps>`
     top: 0;
     left: ${({ click }) => (click ? 0 : '-100%')};
     bottom: 0;
-    background-color: #222;
+    background-color: #222222f8;
     color: #eee;
     width: 50%;
     padding: 10px;
@@ -64,6 +64,7 @@ export const Ul = styled.ul<UlProps>`
     z-index: 1;
     font-size: 1.2rem;
     font-weight: 400;
+    transition: left 0.2s ease-in-out
   }
 `;
 

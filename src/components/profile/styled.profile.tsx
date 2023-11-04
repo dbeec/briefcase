@@ -69,7 +69,7 @@ export const Picture = styled.img<PictureProps>`
   border-radius: 50%;
   padding: 6px;
   /* box-sizing: border-box; */
-  background: linear-gradient(#118333, #B5AC49)
+  background: linear-gradient(#118333, #B5AC49);
   
 `;
 

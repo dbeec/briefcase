@@ -36,7 +36,7 @@ export const Li = styled.li`
 export const Linkk = styled(Link)`
   display: flex;
   gap: 10px;
-  .icon {
+  /* .icon { */
     display: flex;
     align-items: center;
   }

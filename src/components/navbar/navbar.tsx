@@ -1,13 +1,24 @@
 "use client";
 import { Menu } from "./menu";
-import { ContentNavbar, Li, Linkk, Nav, Ul } from "./styled.navbar";
+import { BurgerMenu, ContentNavbar, Li, Linkk, Nav, Ul } from "./styled.navbar";
+import {HiOutlineMenu} from 'react-icons/hi'
+import {useState} from 'react'
 
 const Navbar = () => {
+const [clickBurger, setClickBurger] = useState(false);
+const handleBurger = () => {
+  setClickBurger(!clickBurger)
+}
   return (
     <>
       <ContentNavbar>
         <Nav>
-          <Ul>
+          {/* menu de hamburguessa */}
+          <BurgerMenu onClick={() => handleBurger()}>
+          <HiOutlineMenu />
+          </BurgerMenu>
+
+          <Ul click={clickBurger}>
             {Menu.map((item, index) => {
               return (
                 <Li key={index}>

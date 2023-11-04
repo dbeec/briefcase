@@ -1,18 +1,22 @@
-import {GrHomeRounded} from 'react-icons/gr'
+import {BiHomeAlt2} from 'react-icons/bi'
 import {MdOutlineAnnouncement} from 'react-icons/md'
 import {BsBriefcase} from 'react-icons/bs'
-import {AiOutlineContacts} from 'react-icons/ai'
+import {LuContact} from 'react-icons/lu'
+
 
 export const Menu = [
   {
     title: "home",
     url: "/",
-    icon: <GrHomeRounded />
+    icon: <BiHomeAlt2 />,
+    class: "show"
+
   },
   {
     title: "about me",
     url: "/about",
-    icon: <MdOutlineAnnouncement />
+    icon: <MdOutlineAnnouncement />,
+    class: "show"
   },
   {
     title: "tsx",
@@ -22,11 +26,13 @@ export const Menu = [
   {
     title: "briefcase",
     url: "/",
-    icon: <BsBriefcase />
+    icon: <BsBriefcase />,
+    class: "show"
   },
   {
     title: "contact me",
     url: "/",
-    icon: <AiOutlineContacts />
+    icon: <LuContact />,
+    class: "show"
   },
 ]

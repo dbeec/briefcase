@@ -25,7 +25,7 @@ const Profile = () => {
   return (
     <>
       <ContentMain>
-
+        
         <MyProfile>
 
           <ContentProfilePic>

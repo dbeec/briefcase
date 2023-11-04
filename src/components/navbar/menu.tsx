@@ -7,14 +7,14 @@ import {LuContact} from 'react-icons/lu'
 export const Menu = [
   {
     title: "home",
-    url: "/",
+    url: "#home",
     icon: <BiHomeAlt2 />,
     class: "show"
 
   },
   {
     title: "about me",
-    url: "/about",
+    url: "#about",
     icon: <MdOutlineAnnouncement />,
     class: "show"
   },
@@ -25,13 +25,13 @@ export const Menu = [
   },
   {
     title: "briefcase",
-    url: "/",
+    url: "#",
     icon: <BsBriefcase />,
     class: "show"
   },
   {
     title: "contact me",
-    url: "/",
+    url: "#",
     icon: <LuContact />,
     class: "show"
   },

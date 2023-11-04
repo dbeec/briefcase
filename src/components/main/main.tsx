@@ -9,7 +9,7 @@ import {
   ProfileMain,
   SocialNetworks,
   Span,
-  TextPersonal,
+  TextPersonal
 } from "./styled.main";
 import Link from 'next/link'
 import { BiLogoFacebook } from "react-icons/bi";
@@ -44,23 +44,23 @@ const Main = () => {
 
             {/* iconos de mis redes sociales */}
             <SocialNetworks>
-              <Link href='https://www.facebook.com/alleeschmidt' target='_blank'>
+              <Link title='Facebook' href='https://www.facebook.com/alleeschmidt' target='_blank'>
               <BiLogoFacebook />
               </Link>
 
-              <Link href='https://www.instagram.com/dev.beecodes/' target='_blank'>
+              <Link title='Instagram' href='https://www.instagram.com/dev.beecodes/' target='_blank'>
               <BiLogoInstagram />
               </Link>
 
-              <Link href='https://github.com/dbeec' target='_blank'>
+              <Link title='GitHub' href='https://github.com/dbeec' target='_blank'>
               <BiLogoGithub />
               </Link>
 
-              <Link href='https://twitter.com/imjdiazq' target='_blank'>
+              <Link title='Twitter' href='https://twitter.com/imjdiazq' target='_blank'>
               <RiTwitterXFill />
               </Link>
 
-              <Link href='https://www.linkedin.com/in/johan-d%C3%ADaz-ba83ab28b/' target='_blank'>
+              <Link title='LinkedIn' href='https://www.linkedin.com/in/johan-d%C3%ADaz-ba83ab28b/' target='_blank'>
               <FaLinkedinIn />
               </Link>
             </SocialNetworks>

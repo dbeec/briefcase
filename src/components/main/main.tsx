@@ -11,13 +11,16 @@ import {
   Span,
   TextPersonal,
 } from "./styled.main";
+import Link from 'next/link'
 import { BiLogoFacebook } from "react-icons/bi";
 import { BiLogoInstagram } from "react-icons/bi";
 import { BiLogoGithub } from "react-icons/bi";
 import { RiTwitterXFill } from "react-icons/ri";
 import { FaLinkedinIn } from "react-icons/fa";
 
+// aqui exporto la imagen automaticamente de la carpeta public
 const img1 = '/Me.jpg';
+
 const Main = () => {
   return (
     <>

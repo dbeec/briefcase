@@ -22,7 +22,7 @@ const handleBurger = () => {
             {Menu.map((item, index) => {
               return (
                 <Li key={index}>
-                  <Linkk href={item.url}>
+                  <Linkk href={item.url} onClick={() => handleBurger()}>
                     <i className="icon">{item.icon}</i>
                     <span className={item.class}>{item.title}</span>
                     </Linkk>

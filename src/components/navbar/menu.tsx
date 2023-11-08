@@ -19,7 +19,7 @@ export const Menu = [
     class: "show"
   },
   {
-    title: "ts",
+    title: "bee",
     url: "/",
     class: "brand"
   },

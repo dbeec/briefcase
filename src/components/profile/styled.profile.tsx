@@ -37,6 +37,7 @@ export const SocialNetworks = styled.div`
   font-size: 2rem;
   gap: 20px;
   margin-top: 20px;
+  color: #222;
   
   @media (max-width: 768px) {
     /* background-color: red; */
@@ -80,6 +81,7 @@ export const PersonalInformation = styled.div`
 
 export const H1 = styled.h1`
   font-size: 3rem;
+  color: #222;
 
   @media (max-width: 768px) {
     text-align: center;
@@ -88,20 +90,25 @@ export const H1 = styled.h1`
 
 export const Span = styled.span`
   background: #118333;
-background: -webkit-linear-gradient(to right, #B5AC49, #118333);
-background: linear-gradient(to right, #B5AC49, #118333);
--webkit-background-clip: text;
-background-clip: text;
-color: transparent;
+  background: -webkit-linear-gradient(to right, #B5AC49, #118333);
+  background: linear-gradient(to right, #B5AC49, #118333);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 `;
 
-export const H2 = styled.h2`
+export const P = styled.p`
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #222;
   @media (max-width: 768px) {
     text-align: center;
   }
 `;
 
 export const TextPersonal = styled.p`
+  color: #222;
   @media (max-width: 768px) {
     margin-left: 10px;
     padding: 4px;

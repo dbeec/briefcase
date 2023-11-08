@@ -2,7 +2,7 @@ import {
   ContentMain,
   ContentProfilePic,
   H1,
-  H2,
+  P,
   MyProfile,
   PersonalInformation,
   Picture,
@@ -36,11 +36,11 @@ const Profile = () => {
 
           <PersonalInformation>
             <H1>Hello, <Span>I{"'"}m Johan</Span></H1>
-            <H2>Developer Frontend Junior</H2>
+            <P>Developer Frontend Junior</P>
             <TextPersonal>✈️ love travel to the world</TextPersonal>
             <TextPersonal>🏍️ i{"'"}ve a passion for motorcycles</TextPersonal>
             <TextPersonal>☕ coffe and more coffe</TextPersonal>
-            <TextPersonal>💻 love with de code</TextPersonal>
+            <TextPersonal>💻 love with the code</TextPersonal>
 
             {/* iconos de mis redes sociales */}
             <SocialNetworks>

@@ -5,7 +5,7 @@ const Aboutme = () => {
   return (
     <>
     <ContentAbout>
-        <h1 id="about">Esto es una prueba</h1>
+        <h1 id="about">Aqui puedes conocer un poco mas de mi.</h1>
     </ContentAbout>
     </>
   );

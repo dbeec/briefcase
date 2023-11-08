@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 
 interface PictureProps {
   src: string;
@@ -89,13 +89,51 @@ export const H1 = styled.h1`
 `;
 
 export const Span = styled.span`
-  background: #118333;
+  background: 50% 100%/50% 50% no-repeat radial-gradient(ellipse at bottom, #B5AC49, transparent, transparent);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  /* font-size: 10vw; */
+  font-family: "Source Sans Pro", sans-serif;
+  -webkit-animation: reveal 3000ms ease-in-out forwards 200ms, glow 2500ms linear infinite 2000ms;
+          animation: reveal 3000ms ease-in-out forwards 200ms, glow 2500ms linear infinite 2000ms;
+
+  /* background: #118333;
   background: -webkit-linear-gradient(to right, #B5AC49, #118333);
   background: linear-gradient(to right, #B5AC49, #118333);
   -webkit-background-clip: text;
   background-clip: text;
-  color: transparent;
+  color: transparent; */
+
+  @-webkit-keyframes reveal {
+  10% {
+    letter-spacing: 8px;
+  }
+  10% {
+    background-size: 300% 300%;
+  }
+}
+@keyframes reveal {
+  10% {
+    letter-spacing: 8px;
+  }
+  100% {
+    background-size: 300% 300%;
+  }
+}
+@-webkit-keyframes glow {
+  20% {
+    text-shadow: 0 0 8px #11833390;
+  }
+}
+@keyframes glow {
+  5% {
+    text-shadow: 0 0 8px #11833390;
+  }
+}
 `;
+
+
 
 export const P = styled.p`
   font-size: 1.3rem;

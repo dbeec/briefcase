@@ -1,6 +1,12 @@
 import styled from 'styled-components';
 
 export const ContentAbout = styled.div`
+  /* background-color: #222; */
   width: 100%;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  gap: 20px;
 `;

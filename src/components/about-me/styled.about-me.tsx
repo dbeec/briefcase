@@ -37,7 +37,7 @@ export const Textme = styled.p`
 `;
 
 export const Span = styled.span`
-  
+
 `;
 
 export const Button = styled.button`
@@ -69,7 +69,7 @@ export const Button = styled.button`
 
 export const ContentPic = styled.div`
   width: 100%;
-  height: auto%;
+  height: auto;
   /* background: #000; */
   padding: 10px;
   display: flex;

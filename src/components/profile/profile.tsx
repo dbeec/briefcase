@@ -35,7 +35,7 @@ const Profile = () => {
           </ContentProfilePic>
 
           <PersonalInformation>
-            <H1>Hello, <Span>I{"'"}m beecodes</Span></H1>
+            <H1>Hello, <Span>I{"'"}m bee</Span></H1>
             <P>Developer Frontend Junior</P>
             <TextPersonal>✈️ love travel to the world</TextPersonal>
             <TextPersonal>🏍️ i{"'"}ve a passion for motorcycles</TextPersonal>

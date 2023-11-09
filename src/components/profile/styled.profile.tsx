@@ -80,11 +80,13 @@ export const PersonalInformation = styled.div`
 `;
 
 export const H1 = styled.h1`
-  font-size: 3rem;
+  font-size: 4rem;
   color: #222;
+  font-family: var(--font-karla);
 
   @media (max-width: 768px) {
     text-align: center;
+    font-size: 3rem;
   }
 `;
 
@@ -100,7 +102,7 @@ export const Span = styled.span`
 
   @-webkit-keyframes reveal {
   10% {
-    letter-spacing: 8px;
+    letter-spacing: 0;
   }
   10% {
     background-size: 300% 300%;
@@ -108,7 +110,7 @@ export const Span = styled.span`
 }
 @keyframes reveal {
   10% {
-    letter-spacing: 8px;
+    letter-spacing: 0;
   }
   100% {
     background-size: 300% 300%;
@@ -131,8 +133,9 @@ export const Span = styled.span`
 export const P = styled.p`
   font-size: 1.3rem;
   font-weight: 600;
-  letter-spacing: 1px;
+  letter-spacing: 5px;
   color: #222;
+  font-family: var(--font-karla);
   @media (max-width: 768px) {
     text-align: center;
   }
@@ -140,6 +143,8 @@ export const P = styled.p`
 
 export const TextPersonal = styled.p`
   color: #222;
+  font-family: var(--font-karla);
+
   @media (max-width: 768px) {
     margin-left: 10px;
     padding: 4px;

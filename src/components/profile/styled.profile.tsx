@@ -96,14 +96,7 @@ export const Span = styled.span`
   /* font-size: 10vw; */
   font-family: "Source Sans Pro", sans-serif;
   -webkit-animation: reveal 3000ms ease-in-out forwards 200ms, glow 2500ms linear infinite 2000ms;
-          animation: reveal 3000ms ease-in-out forwards 200ms, glow 2500ms linear infinite 2000ms;
-
-  /* background: #118333;
-  background: -webkit-linear-gradient(to right, #B5AC49, #118333);
-  background: linear-gradient(to right, #B5AC49, #118333);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent; */
+  animation: reveal 3000ms ease-in-out forwards 200ms, glow 2500ms linear infinite 2000ms;
 
   @-webkit-keyframes reveal {
   10% {

@@ -1,11 +1,11 @@
+import { Audio, Prueba } from "./styled.audio-music";
+
 const AudioMusic = () => {
   return (
     <>
-    <div>
-      <audio controls>
-        <source src="./Le-Monde.mp3" type="audio/mpeg"></source>
-      </audio>
-    </div>
+    <Prueba>
+      <Audio src="./Le-Monde.mp3"  controls loop/>
+    </Prueba>
     </>
   );
 }

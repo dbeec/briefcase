@@ -12,6 +12,7 @@ import {
 } from "./styled.about-me";
 import Link from "next/link";
 
+const image = '/1.png'
 const Aboutme = () => {
   return (
     <>

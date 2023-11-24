@@ -15,3 +15,5 @@ COPY --from=build /app/out /var/www/app/
 EXPOSE 80
 
 CMD [ "nginx", "-g", "daemon off;" ]
+
+#prueba

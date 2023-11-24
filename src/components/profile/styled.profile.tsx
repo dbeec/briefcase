@@ -54,7 +54,7 @@ export const ContentProfilePic = styled.div`
   
 `;
 export const ProfileMain = styled.div`
-  background: #eee;
+  /* background: #eee; */
   display: flex; //eliminar estilo
   justify-content: center; //eliminar estilo
   align-items: center;  //eliminar estilo

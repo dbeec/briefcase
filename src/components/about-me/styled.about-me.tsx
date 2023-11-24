@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Link from 'next/link'
+
 export const ContentAbout = styled.div`
   background-color: #fff;
   width: 100%;

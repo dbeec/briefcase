@@ -1,0 +1,151 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  height: 4rem;
+  padding: 0 2rem;
+  border-bottom: 1px solid #eee;
+  box-sizing: border-box;
+}
+
+.nav__logo__search {
+  display: inherit;
+  align-items: center;
+}
+
+.nav__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  transition: transform 0.1s;
+}
+
+.nav__logo:active {
+  transform: translateY(-3px);
+}
+
+.nav__link {
+  display: flex;
+  justify-content: center;
+  color: #222;
+  transition: all 0.2s ease;
+}
+
+.nav__link:hover {
+  color: #646cff;
+}
+
+.nav__logo span {
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+
+.nav__search {
+  padding-left: 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.display {
+  display: flex;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.nav__list span {
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgba(60, 60, 67);
+  text-transform: capitalize;
+  transition: all 0.2s ease;
+}
+
+.nav__list span:hover {
+  color: #646cff;
+}
+
+.nav__translate::before {
+  content: "";
+  background: #ddd;
+  margin-right: 16px;
+  margin-left: 8px;
+  width: 1px;
+  height: 24px;
+}
+
+.nav__translate {
+  display: inherit;
+  align-items: center;
+  font-size: 1.1rem;
+  padding-left: 12px;
+  color: rgba(60, 60, 67, 0.78);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.nav__translate:hover {
+  color: #222;
+}
+
+.nav__darkmode::before {
+  content: "";
+  background: #ddd;
+  margin-right: 16px;
+  margin-left: 8px;
+  width: 1px;
+  height: 24px;
+}
+
+.nav__darkmode {
+  display: inherit;
+  align-items: center;
+  font-size: 1.1rem;
+  padding: 0 12px;
+  color: rgba(60, 60, 67, 0.78);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.nav__darkmode:hover {
+  color: #222;
+}
+
+.nav__socialnetworks::before {
+  content: "";
+  background: #ddd;
+  margin-right: 8px;
+  margin-left: 8px;
+  width: 1px;
+  height: 24px;
+}
+
+.nav__socialnetworks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__iconcolors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  color: rgba(60, 60, 67, 0.78);
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+}
+
+.nav__iconcolors:hover {
+  color: #222;
+}

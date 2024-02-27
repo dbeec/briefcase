@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
   width: 100vw;
-  height: 4rem;
+  height: 8vh;
   padding: 0 2rem;
   border-bottom: 1px solid #eee;
   box-sizing: border-box;
@@ -18,7 +18,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.3rem;
+  font-size: 1.8rem;
   transition: transform 0.1s;
 }
 
@@ -28,7 +28,7 @@
 
 .nav__link {
   display: flex;
-  justify-content: center;
+  align-items: center;
   color: #222;
   transition: all 0.2s ease;
 }
@@ -38,7 +38,7 @@
 }
 
 .nav__logo span {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-weight: 900;
   margin: 0;
   padding: 0;
@@ -68,6 +68,10 @@
   color: rgba(60, 60, 67);
   text-transform: capitalize;
   transition: all 0.2s ease;
+}
+
+.nav__list .nav__fweight {
+  font-weight: 700;
 }
 
 .nav__list span:hover {

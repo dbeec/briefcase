@@ -19,19 +19,19 @@ export default function Navbar() {
         <div className="display">
           <div className="nav__list">
             <Link to={"https://vitejs.dev/guide/"}>
-              <span>guide</span>
+              <span>opcion 1</span>
             </Link>
             <Link to={"https://vitejs.dev/config/"}>
-              <span>config</span>
+              <span>opcion 2</span>
             </Link>
             <Link to={"https://vitejs.dev/plugins/"}>
-              <span>pluguins</span>
+              <span>opcion 3</span>
             </Link>
             <Link to={"/"}>
-              <span>resources</span>
+              <span>opcion 4</span>
             </Link>
             <Link to={"/"}>
-              <span>version</span>
+              <span>opcion 5</span>
             </Link>
           </div>
 

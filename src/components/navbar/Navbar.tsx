@@ -18,9 +18,9 @@ export default function Navbar() {
 
         <div className="display">
           <div className="nav__list">
-            <Link to={"https://vitejs.dev/guide/"}>
+            <a href="#footer">
               <span>home</span>
-            </Link>
+            </a>
             <Link to={"https://vitejs.dev/config/"}>
               <span>about me</span>
             </Link>

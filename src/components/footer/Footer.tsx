@@ -1,10 +1,10 @@
-import './Footer.css'
+import "./Footer.css";
 export default function Footer() {
   return (
     <>
-
-      <footer id='footer' className="footer">Footer</footer>
-
+      <footer id="footer" className="footer">
+        Footer
+      </footer>
     </>
   );
 }

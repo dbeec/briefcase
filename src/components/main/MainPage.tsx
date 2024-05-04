@@ -1,5 +1,7 @@
 import "./MainPage.css";
 import * as IconFA from "react-icons/fa";
+import Logo from "../../assets/Idev.svg";
+
 export default function MainPage() {
   return (
     <>
@@ -16,10 +18,14 @@ export default function MainPage() {
               </button>
             </div>
           </div>
-          <div className="main__banner">
-            <h2>
-              <span>i</span>dev
-            </h2>
+
+          {/* Blur */}
+          <div className="filter__blur">
+            <div className="blur__circle">
+            </div>
+            <div className="filter__blur__logo">
+              <img src={Logo} alt="logo" />
+            </div>
           </div>
         </div>
       </main>

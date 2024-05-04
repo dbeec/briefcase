@@ -1,4 +1,6 @@
 .main {
+  display: flex;
+  align-items: center;
   width: 100vw;
   height: 100vh;
   padding: 1rem 4rem;
@@ -17,13 +19,13 @@
 }
 
 .main__welcome h1 {
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: 800;
   color: #222;
 }
 
 .main__welcome p {
-  font-size: 1.4rem;
+  font-size: 2rem;
   font-weight: 500;
   color: #222;
   text-transform: capitalize;
@@ -55,27 +57,25 @@
   background: #5a62fd;
 }
 
-.main__banner {
-  font-size: 5rem;
-}
-
-.main__banner h2 {
+.filter__blur {
+  position: relative;
   display: flex;
+  justify-content: center;
   align-items: center;
-  font-weight: 500;
-  color: #111;
-  /* background-image: -webkit-linear-gradient(20deg, #646cff, #ffd028, #ff6f7f);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent; */
 }
 
-.main__banner span {
-  font-size: 12rem;
-  margin: 0;
-  padding: 0;
-  font-weight: 700;
-  color: #222;
+.blur__circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: #646cff;
+  background: -webkit-linear-gradient(to right, #ec2F4B, #646cff);
+  background: linear-gradient(to right, #ec2F4B, #646cff);
+  filter: blur(90px);
+}
+
+
+.filter__blur .filter__blur__logo {
+  position: absolute;
+  width: 270px;
 }

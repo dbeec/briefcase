@@ -1,5 +1,59 @@
 .aboutme {
-  background-color: pink;
-  width: 100%;
+  display: flex;
+  align-items: center;
+  width: 100vw;
   height: 100vh;
+  padding: 1rem 4rem;
+}
+
+.aboutme__content {
+  /* background: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+  padding: 0 15%;
+  gap: 5rem;
+}
+
+.aboutme__logo img {
+  width: 500px;
+}
+
+.aboutme__text h1 {
+  font-size: 3rem;
+  color: #646cff;
+}
+
+.aboutme__text p {
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.btn__mission__vision {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn__mission__vision button{
+  background: #646cff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  color: #fff;
+  border-radius: 3px;
+  padding: 0.6rem 1.5rem;
+  cursor: pointer;
+  transition: transform 0.1s;
+  margin-top: 1rem;
+}
+
+.btn__mission__vision button:active {
+  transform: translateY(-3px);
+}
+
+.btn__mission__vision button:hover {
+  background: #5a62fd;
 }

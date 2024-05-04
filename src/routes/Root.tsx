@@ -9,7 +9,7 @@ export default function Root() {
       <Navbar />
       <MainPage />
       <Aboutme />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

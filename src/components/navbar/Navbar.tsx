@@ -18,7 +18,7 @@ export default function Navbar() {
 
         <div className="display">
           <div className="nav__list">
-            <a href="/">
+            <a href="#home">
               <span>home</span>
             </a>
             <a href="#aboutme">

@@ -3,7 +3,7 @@ import * as IconFA from "react-icons/fa";
 export default function MainPage() {
   return (
     <>
-      <main className="main">
+      <main id="home" className="main">
         <div className="main__welcome__banner">
           <div className="main__welcome">
             <h1>hi there!</h1>

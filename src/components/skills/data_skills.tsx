@@ -1,24 +1,18 @@
 interface Skills {
-  header: Header[];
-  boxes: Boxes[];
+  boxFront: BoxFront[];
+  boxBack: BoxBack[];
 }
 
-interface Header {
-  name: string;
-  class__skill?: string;
-  class__box?: string;
-  spacing: number;
+interface BoxFront {
+  class?: string;
   image: string;
   xs?: number;
   sm?: number;
   md?: number;
 }
 
-interface Boxes {
-  name: string;
-  class__skill?: string;
-  class__box?: string;
-  spacing: number,
+interface BoxBack {
+  class?: string;
   image: string;
   xs?: number;
   sm?: number;
@@ -29,31 +23,32 @@ const myImage = new Image();
 myImage.src = "../../assets/next.png";
 
 const sk_Data: Skills = {
-  header: [
+  boxFront: [
     {
-      name: "frontend",
-      class__skill: "skill__frontend",
-      class__box: "skill__box",
-      spacing: 0.4,
+      class: "skill__box",
       image: "sjjsjs",
-      xs: 12,
+      xs: 4,
     },
     {
-      name: "backend",
-      class__skill: "skill__frontend",
-      class__box: "skill__box",
-      spacing: 0.4,
+      class: "skill__box",
       image: "sjjsjs",
-      xs: 12,
+      xs: 4,
+    },
+    {
+      class: "skill__box",
+      image: "sjjsjs",
+      xs: 4,
+    },
+    {
+      class: "skill__box",
+      image: "sjjsjs",
+      xs: 4,
     },
   ],
 
-  boxes: [
+  boxBack: [
     {
-      name: "backend",
-      class__skill: "skill__frontend",
-      class__box: "skill__box",
-      spacing: 0.4,
+      class: "skill__backend",
       image: "sjjsjs",
       xs: 12,
     },

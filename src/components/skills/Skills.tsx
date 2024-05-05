@@ -1,6 +1,6 @@
 import { Box, Grid } from "@mui/material";
 import "./Skills.css";
-import NEXT from "../../assets/next.png";
+// import NEXT from "../../assets/next.png";
 // import ANGULAR from "../../assets/angular.png";
 import sk_Data from "./data_skills";
 

@@ -1,9 +1,9 @@
 interface Skills {
-  frontend: Frontend[];
-  backend: Backend[];
+  header: Header[];
+  boxes: Boxes[];
 }
 
-interface Frontend {
+interface Header {
   name: string;
   class__skill?: string;
   class__box?: string;
@@ -14,7 +14,7 @@ interface Frontend {
   md?: number;
 }
 
-interface Backend {
+interface Boxes {
   name: string;
   class__skill?: string;
   class__box?: string;
@@ -29,7 +29,7 @@ const myImage = new Image();
 myImage.src = "../../assets/next.png";
 
 const sk_Data: Skills = {
-  frontend: [
+  header: [
     {
       name: "frontend",
       class__skill: "skill__frontend",
@@ -39,7 +39,7 @@ const sk_Data: Skills = {
       xs: 12,
     },
     {
-      name: "frontend",
+      name: "backend",
       class__skill: "skill__frontend",
       class__box: "skill__box",
       spacing: 0.4,
@@ -48,7 +48,7 @@ const sk_Data: Skills = {
     },
   ],
 
-  backend: [
+  boxes: [
     {
       name: "backend",
       class__skill: "skill__frontend",

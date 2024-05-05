@@ -8,7 +8,7 @@ export default function Skills() {
   return (
     <>
       <div id="skills" className="skills">
-        {sk_Data.frontend.map((item, index) => (
+        {sk_Data.header.map((item, index) => (
           <Box sx={{ flexGrow: 1 }}>
             <Grid key={index} container spacing={item.spacing}>
               <Grid item xs={item.xs}>

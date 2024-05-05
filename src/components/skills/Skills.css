@@ -1,0 +1,36 @@
+.skills {
+  width: 100vw;
+  height: 100vh;
+  padding: 4rem 4rem;
+}
+
+.skill__frontend {
+  background-color: #f6f6f7;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: .5rem;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.skill__box {
+  background-color: #f6f6f7;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 4rem;
+}
+
+.skill__box img {
+  width: 250px;
+}
+
+.skill__backend  {
+  background-color: #f6f6f7;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: .5rem;
+}

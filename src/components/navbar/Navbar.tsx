@@ -24,7 +24,7 @@ export default function Navbar() {
             <a href="#aboutme">
               <span>about me</span>
             </a>
-            <a href="/">
+            <a href="#skills">
               <span>skills</span>
             </a>
             <a href="/">
@@ -44,19 +44,39 @@ export default function Navbar() {
           </div>
 
           <div className="nav__socialnetworks">
-            <Link to={"https://discord.com"} className="nav__iconcolors">
+            {/* discord */}
+            <Link
+              to={"https://discord.gg/Un47uUqCbU"}
+              target="__blank"
+              className="nav__iconcolors"
+            >
               <IconBS.BsDiscord />
             </Link>
+
+            {/* X */}
             <Link
-              to={"https://twitter.com/?lang=es"}
+              to={"https://twitter.com/imjdiazq"}
+              target="__blank"
               className="nav__iconcolors"
             >
               <IconBS.BsTwitterX />
             </Link>
-            <Link to={"https://github.com"} className="nav__iconcolors">
+
+            {/* github */}
+            <Link
+              to={"https://github.com/dbeec"}
+              target="__blank"
+              className="nav__iconcolors"
+            >
               <IconBS.BsGithub />
             </Link>
-            <Link to={"https://discord.com"} className="nav__iconcolors">
+
+            {/* instagram */}
+            <Link
+              to={"https://www.instagram.com/johandiazq/"}
+              target="__blank"
+              className="nav__iconcolors"
+            >
               <IconBS.BsInstagram />
             </Link>
           </div>

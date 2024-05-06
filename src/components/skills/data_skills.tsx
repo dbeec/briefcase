@@ -5,7 +5,7 @@ interface Skills {
 
 interface BoxFront {
   class?: string;
-  image: string;
+  image?: string;
   xs?: number;
   sm?: number;
   md?: number;
@@ -13,44 +13,68 @@ interface BoxFront {
 
 interface BoxBack {
   class?: string;
-  image: string;
+  image?: string;
   xs?: number;
   sm?: number;
   md?: number;
 }
 
-const myImage = new Image();
-myImage.src = "../../assets/next.png";
+const myImage = "./next.png";
 
 const sk_Data: Skills = {
   boxFront: [
     {
       class: "skill__box",
-      image: "sjjsjs",
-      xs: 4,
+      image: myImage,
+      xs: 3,
     },
-    {
-      class: "skill__box",
-      image: "sjjsjs",
-      xs: 4,
-    },
-    {
-      class: "skill__box",
-      image: "sjjsjs",
-      xs: 4,
-    },
-    {
-      class: "skill__box",
-      image: "sjjsjs",
-      xs: 4,
-    },
+    // {
+    //   class: "skill__box",
+    //   image: "NEXT JS",
+    //   xs: 3,
+    // },
+    // {
+    //   class: "skill__box",
+    //   image: "NEXT JS",
+    //   xs: 3,
+    // },
+    // {
+    //   class: "skill__box",
+    //   image: "NEXT JS",
+    //   xs: 3,
+    // },
+    // {
+    //   class: "skill__box",
+    //   image: "NEXT JS",
+    //   xs: 3,
+    // },
+    // {
+    //   class: "skill__box",
+    //   image: "NEXT JS",
+    //   xs: 3,
+    // },
+    // {
+    //   class: "skill__box",
+    //   image: "NEXT JS",
+    //   xs: 3,
+    // },
+    // {
+    //   class: "skill__box",
+    //   image: "NEXT JS",
+    //   xs: 3,
+    // },
   ],
 
   boxBack: [
     {
-      class: "skill__backend",
-      image: "sjjsjs",
-      xs: 12,
+      class: "skill__box",
+      image: "NEXT JS",
+      xs: 6,
+    },
+    {
+      class: "skill__box",
+      image: "NEXT JS",
+      xs: 6,
     },
   ],
 };

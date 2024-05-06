@@ -8,8 +8,8 @@ export default function Skills() {
   return (
     <>
       <div id="skills" className="skills">
-        <Box sx={{ flexGrow: 1 }}>
-          <Grid container spacing={0.5}>
+        <Box sx={{ width: "100%" }}>
+          <Grid className="skills__gridcontent" container spacing={0.5}>
             <Grid item xs={12}>
               <div className="skill__frontend">frontend</div>
             </Grid>
@@ -22,10 +22,14 @@ export default function Skills() {
               </Grid>
             ))}
 
+            <Grid item xs={12}>
+              <div className="skill__backend">backend</div>
+            </Grid>
+
             {sk_Data.boxBack.map((item, index) => (
               <Grid key={index} item xs={item.xs}>
                 <div className={item.class}>
-                  backend
+                  <img src={item.image} alt="nextjs" />
                 </div>
               </Grid>
             ))}

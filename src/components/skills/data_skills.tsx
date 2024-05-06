@@ -42,27 +42,27 @@ const sk_Data: Skills = {
     },
     {
       class: "skill__box",
-      image: "NEXT JS",
+      image: ss,
       xs: 3,
     },
     {
       class: "skill__box",
-      image: "NEXT JS",
+      image: ss,
       xs: 3,
     },
     {
       class: "skill__box",
-      image: "NEXT JS",
+      image: ss,
       xs: 3,
     },
     {
       class: "skill__box",
-      image: "NEXT JS",
+      image: ss,
       xs: 3,
     },
     {
       class: "skill__box",
-      image: "NEXT JS",
+      image: ss,
       xs: 3,
     },
   ],
@@ -70,12 +70,12 @@ const sk_Data: Skills = {
   boxBack: [
     {
       class: "skill__box__border",
-      image: "NEXT JS",
+      image: ss,
       xs: 6,
     },
     {
       class: "skill__box__border",
-      image: "NEXT JS",
+      image: ss,
       xs: 6,
     },
   ],

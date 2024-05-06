@@ -4,7 +4,7 @@
   justify-content: center;
   width: 100vw;
   height: 100vh;
-  padding: 4rem 4rem;
+  /* padding: 4rem 4rem; */
 }
 
 .skills__gridcontent {
@@ -26,12 +26,24 @@
   display: flex;
   justify-content: center;
   text-align: center;
-  padding: 4rem;
+  padding: 3rem;
+  cursor: pointer;
 }
 
 .skill__box img {
-  width: 250px;
+  max-width: 192px;
+  max-height: 96px;
 }
+
+.skill__box__border {
+  background-color: #f6f6f7;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 4rem;
+  border-radius: 0px 0px 5px 5px;
+}
+
 
 .skill__backend {
   background-color: #f6f6f7;

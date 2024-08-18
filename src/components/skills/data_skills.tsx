@@ -1,6 +1,5 @@
 import next from '../../assets/next.png';
 import ss from '../../assets/descarga.svg';
-import so from '../../assets/react.svg';
 import vite from '../../assets/Vitejs-logo.svg';
 
 

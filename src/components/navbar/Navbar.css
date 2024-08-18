@@ -10,6 +10,7 @@
   padding: 0 2rem;
   border-bottom: 1px solid #eee;
   box-sizing: border-box;
+  opacity: .9;
 }
 
 .nav__logo__search {

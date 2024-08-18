@@ -12,7 +12,8 @@
 }
 
 .skill__frontend {
-  background-color: #f6f6f7;
+  background-color: #ddd;
+  /* background-color: #f6f6f7; */
   text-align: center;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -22,21 +23,24 @@
 }
 
 .skill__box {
-  background-color: #f6f6f7;
+  background-color: #ddd;
+  /* background-color: #f6f6f7; */
   display: flex;
   justify-content: center;
   text-align: center;
   padding: 3rem;
-  cursor: pointer;
 }
 
 .skill__box img {
-  max-width: 192px;
-  max-height: 96px;
+  width: 160px;
+  height: 4rem;
+  object-fit: contain;
 }
 
+
 .skill__box__border {
-  background-color: #f6f6f7;
+  background-color: #ddd;
+  /* background-color: #f6f6f7; */
   display: flex;
   justify-content: center;
   text-align: center;
@@ -46,7 +50,8 @@
 
 
 .skill__backend {
-  background-color: #f6f6f7;
+  /* background-color: #f6f6f7; */
+  background-color: #ddd;
   text-align: center;
   letter-spacing: 3px;
   text-transform: uppercase;
